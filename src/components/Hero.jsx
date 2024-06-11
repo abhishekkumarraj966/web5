@@ -32,7 +32,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div class="  sm:col-span-2 p-4  sm:mt-[50px] lg:ml-[-100px]">
+        <div class="  sm:col-span-2 p-4  sm:mt-[30px] lg:ml-[-100px]">
           <p className="lg:h-[237px]  h-[110px]   lg:text-[24px] sm:text-[20px] text-[18px] font-normal">
             “It is a long established fact that a reader will be tracked
             distracted by the readable content of a page is when looking at its
