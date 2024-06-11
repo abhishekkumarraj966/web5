@@ -37,7 +37,7 @@ const Product = () => {
               slidesPerView: 3,
               spaceBetween: 15,
             },
-            940: {
+            1000: {
               slidesPerView: 4,
               spaceBetween: 15,
             },
