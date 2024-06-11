@@ -33,6 +33,7 @@ const Hero = () => {
           </div>
         </div>
         <div class="  sm:col-span-2 p-4  sm:mt-[30px] lg:ml-[-100px]">
+          <h2 className=" font-bold text-[25px] text-center sm:text-start pb-2"> AAYUSH PANDYA</h2>
           <p className="lg:h-[237px]  h-[110px]   lg:text-[24px] sm:text-[20px] text-[18px] font-normal">
             “It is a long established fact that a reader will be tracked
             distracted by the readable content of a page is when looking at its
@@ -78,34 +79,34 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="items-center mt-[-18%]   mb-4 mx-[15%] hidden md:block">
-          <ul className="flex gap-[10px] lg:gap-[15px] px-4">
-            <img src={what} className="h-[50px] w-[50px] " alt="whataap" />
-            <img src={fac} alt="facbook" className="h-[45px] w-[45px] mt-1" />
+        <div className="items-center mt-[-5%]   mb-4  hidden md:block lg:mx-[25%] lg:mt-[-18%]">
+          <ul className="flex gap-[10px] lg:gap-[8px] px-2">
+            <img src={what} className="h-[48px] " alt="whataap" />
+            <img src={fac} alt="facbook" className="h-[43px]  mt-1" />
             <img
               src={inst}
               alt="instagram"
-              className="h-[50px] w-[50px] mt-1"
+              className="h-[48px] mt-1"
             />
             <img
               src={you}
               alt="youtube"
-              className="h-[50px] w-[50px] md:w-[60px] mt-1"
+              className="h-[48px]  mt-1"
             />
-            <img src={flip} alt="youtube" className="h-[60px] w-[60px]" />
-            <img src={big} alt="youtube" className="h-[55px] w-[60px] mt-1" />
-            <img src={im} alt="youtube" className="h-[50px] w-[70px] mt-1 " />
-            <img src={amo} alt="youtube" className="h-[40px] w-[50px] mt-2" />
-            <img src={Xi} alt="youtube" className="h-[50px] w-[50px] mt-1 " />
-            <img src={link} alt="youtube" className="h-[55px] w-[50px] mt-1" />
-            <img src={sw} alt="youtube" className="h-[50px] w-[50px]" />
-            <img src={zo} alt="youtube" className="h-[60px] w-[70px]" />
+            <img src={flip} alt="youtube" className="h-[55px]" />
+            <img src={big} alt="youtube" className="h-[50px]  mt-1" />
+            <img src={im} alt="youtube" className="h-[48px]  mt-1 " />
+            <img src={amo} alt="youtube" className="h-[38px]  mt-2" />
+            <img src={Xi} alt="youtube" className="h-[48px]  mt-1 " />
+            <img src={link} alt="youtube" className="h-[50px]  mt-1" />
+            <img src={sw} alt="youtube" className="h-[48px] " />
+            <img src={zo} alt="youtube" className="h-[55px] " />
             <img
               src={me}
               alt="youtube"
-              className="h-[50px] w-[50px] md:w-[70px]"
+              className="h-[48px] "
             />
-            <img src={ju} alt="youtube" className="h-[60px] w-[70px]" />
+            <img src={ju} alt="youtube" className="h-[60px] " />
           </ul>
         </div>
       </div>

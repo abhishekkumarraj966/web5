@@ -43,7 +43,7 @@ const PopupAlbum = ({ setIsPopupOpen, imsg, setImage }) => {
       </div>
       <img
         src={imagarr[imsg]}
-        className="w-full transition-transform transform duration-100 hover:scale-110 h-[380px] mx-auto md:h-[400px] md:w-[480px] lg:h-[400px] lg:w-[480px] lg:rounded-[1px]"
+        className="w-full transition-transform transform duration-100 hover:scale-110 h-[90%] mx-auto  lg:rounded-[1px]"
         alt="Image 1"
       />
       <div

@@ -12,11 +12,11 @@ const Navbar = () => {
   };
 
   const content = (
-    <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#38CB89]  transition-transform duration-200 transform ">
+    <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#38CB89]  transition-transform duration-200 transform">
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform ">
           <li className="my-4 py-4 border-black ">
-            <a href="#product">Products</a>
+            <a href="#products">Products</a>
           </li>
 
           <li className="my-4 py-4 border-black">
@@ -41,12 +41,12 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-[#38CB89] text-white  sticky top-0 z-50">
+    <div className="bg-[#38CB89] text-white   sticky top-0 z-50 h-[80px]">
       <AppLayout>
         <nav>
           <div className="h-16 flex justify-between z-20 text-white lg:py-5 px-[20px] py-4 ">
             <div className="flex items-center flex-1">
-              <a href="https://adsp-temp1-pro.vercel.app/">
+              <a href="">
                 <span className="text-3xl font-bold">Fashionista</span>
               </a>
             </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
               <div className="flex-10">
                 <ul className="flex gap-8 mr-16 text-[18px] ">
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="#product">Products</a>
+                    <a href="#products">Products</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     {/* <Link to="/services">Services</Link> */}

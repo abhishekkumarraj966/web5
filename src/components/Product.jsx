@@ -15,9 +15,9 @@ import { Link } from "react-router-dom";
 
 const Product = () => {
   return (
-    <div className="my-4 mx-6">
+    <div className="my-4 mx-6" id="products">
       <AppLayout>
-        <h2 className=" font-bold text-[30px]">Featured Products</h2>
+        <h2 className=" font-bold text-[30px] ml-2">Products</h2>
         <Swiper
           slidesPerView={1}
           spaceBetween={30}

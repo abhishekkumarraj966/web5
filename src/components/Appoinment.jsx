@@ -5,7 +5,7 @@ const Appoinment = () => {
   return (
     <div className="bg-[#F3F5F7] mb-4 pb-2">
       <AppLayout>
-        <p className="text-start font-bold text-[35px] text-[#000] pt-2 pb-6">
+        <p className="text-start font-bold text-[35px] text-[#000] pt-2 pb-6 ml-4">
           Appointment
         </p>
         <div className=" p6-10 rounded  bg-[#151D09] pt-6">

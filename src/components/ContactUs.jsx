@@ -18,7 +18,7 @@ function ContactUs() {
   };
   return (
     <AppLayout>
-      <section id="inquryform">
+      <section id="contact">
         <div className="bg-[#000] text-[#36C478] h-auto mb-5 rounded-md">
           <div className="text-start font-semibold leading-5 mx-auto pt-10">
             <div className="italic  text-[30px] ml-2">
@@ -44,11 +44,11 @@ function ContactUs() {
                       name="name"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      className="w-[#400px]  mt-2 border-none rounded-md focus:outline-none focus:border-black-500 mx-10 bg-[#151D09] text-[#36C478]"
+                      className="mt-2 border-none rounded-md focus:outline-none focus:border-black-500 mx-10 bg-[#151D09] text-[#36C478]"
                       placeholder="Enter your Name"
                       required
                     />
-                    <hr className="lg:w-[400px] w-[#200px]  mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
+                    <hr className="lg:w-[400px]   mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
                   </div>
                 </div>
                 <div className="mb-4 w-[95%] mx-auto bg-[#151D09] h-auto my-15 rounded-2xl sm:mx-5 sm:px-5">
@@ -66,11 +66,11 @@ function ContactUs() {
                       name="Email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-[#400px]  mt-2 border-none rounded-md focus:outline-none focus:border-black-500 mx-10 bg-[#151D09] text-[#36C478]"
+                      className=" mt-2 border-none rounded-md focus:outline-none focus:border-black-500 mx-10 bg-[#151D09] text-[#36C478]"
                       placeholder="Enter your Email."
                       required
                     />
-                    <hr className="lg:w-[400px] w-[#200px]  mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
+                    <hr className="lg:w-[400px]   mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
                   </div>
                 </div>
                 <div className="mb-4 w-[95%] mx-auto bg-[#151D09] h-auto my-15 rounded-2xl sm:mx-5 sm:px-5">
@@ -88,11 +88,11 @@ function ContactUs() {
                       name="name"
                       value={mobile}
                       onChange={(e) => setMobile(e.target.value)}
-                      className="w-[400px] bg-[#151D09] mt-2 border-none rounded-md focus:outline-none focus:border-black-500 mx-10 text-[#36C478]"
+                      className="  mt-2 border-none rounded-md focus:outline-none focus:border-black-500 mx-10 bg-[#151D09] text-[#36C478]"
                       placeholder="Enter your Mobile No."
                       required
                     />
-                    <hr className="lg:w-[400px] w-[#200px]  mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
+                    <hr className="lg:w-[400px]   mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
                   </div>
                 </div>
                 <div className="mb-4 w-[95%] mx-auto bg-[#151D09] h-auto my-15 rounded-2xl sm:mx-5 sm:px-5">
@@ -110,11 +110,11 @@ function ContactUs() {
                       name="name"
                       value={mobile}
                       onChange={(e) => setMsg(e.target.value)}
-                      className="w-[#400px]  mt-2 border-none bg-[#151D09] rounded-md focus:outline-none focus:border-black-500 mx-10 text-[#36C478]"
+                      className="  mt-2 border-none bg-[#151D09] rounded-md focus:outline-none focus:border-black-500 mx-10 text-[#36C478]"
                       placeholder="Some Text"
                       required
                     />
-                    <hr className="lg:w-[400px] w-[#200px]  mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
+                    <hr className="lg:w-[400px]  mb-2 mx-10 h-[1px] lg:h-[2px] bg-[#D9D9D9]" />
                   </div>
                 </div>
                 <div className="flex items-center justify-center lg:justify-start lg:ml-[27px] mt-4">

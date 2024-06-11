@@ -5,7 +5,7 @@ const Feedbackform = () => {
   return (
     <div className=" bg-[#F3F5F7] py-[15px] my-8  ">
       <AppLayout>
-      <h2 className="font-bold text-[30px]  text-start pb-6  text-black ">
+      <h2 className="font-bold text-[30px]  text-start pb-6  text-black ml-4 ">
             Feedback form
           </h2>
         <div className="p-4 mx-auto sm:mx-20 w-[80%] bg-[#151D09] rounded-xl ">

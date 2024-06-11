@@ -11,6 +11,8 @@ import Feedbackform from "./Feedbackform";
 import Appoinment from "./Appoinment";
 import BussinessHours from "./BussinessHours";
 import ContactUs from "./ContactUs";
+import Certificates from "./Certificates";
+import Offers from "./Offers";
 const Layout = () => {
   return (
     <div>
@@ -18,13 +20,15 @@ const Layout = () => {
       <Hero />
       <Product />
       <Categories />
+      <Offers />
       <Articles />
       <Galleary />
+      <BussinessHours />
+      <Certificates />
       <Feedbackform />
       <Reviews />
-      <BussinessHours />
-      <ContactUs />
       <Appoinment />
+      <ContactUs /> 
     </div>
   );
 };
