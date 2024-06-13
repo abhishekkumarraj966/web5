@@ -23,10 +23,11 @@ const Offers = () => {
     <>
       <div className="">
         <AppLayout>
-        <h1 className="text-start font-bold text-[30px] items-center  pt-[20px] ml-4">
-          Offers
-        </h1>
-        <div id="gallery" className="w-[100%] mx-auto pb-10 ">
+          <h1 className="text-start font-bold text-[30px] items-center  pt-[20px] ml-4">
+            Offers
+          </h1>
+        </AppLayout>
+        <div id="gallery" className="w-[80%] mx-auto pb-10 ">
           <div className=" pt-[15px]  md:hidden ">
             <Slider
               dots={true}
@@ -90,7 +91,7 @@ const Offers = () => {
             />
 
             <img
-              src={gl2}
+              src={gl3}
               className="w-[281px] transition-transform transform duration-100 hover:scale-110 h-[168px] rounded-[12px] lg:h-[191px] lg:w-[318px] lg:rounded-[12px] mx-2"
               alt="Image 2"
               onClick={() => openPopup(1)}
@@ -104,7 +105,6 @@ const Offers = () => {
             setImage={setImage}
           />
         )}
-        </AppLayout>
       </div>
     </>
   );

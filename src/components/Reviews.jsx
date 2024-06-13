@@ -13,7 +13,7 @@ const Reviews = () => {
     <AppLayout>
     <div className="my-10 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 ">
-        <div className="md:ml-[10%] mb-[-60%] sm:mb-[0%]">
+        <div className="md:ml-[10%] mb-[-75%] sm:mb-[0%]">
           <img src={rev} alt=""  className=" sm:h-[403px] rounded-md "/>
         </div>
         <div className="">

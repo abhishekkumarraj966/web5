@@ -13,7 +13,7 @@ import Productmock from "./MockData/Productmock";
 import { Keyboard, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 
-const Product = () => {
+const  Product = () => {
   return (
     <div className="my-4 mx-6" id="products">
       <AppLayout>
