@@ -25,7 +25,7 @@ const OffersAll = ({ setIsPopupOpen, imsg, setImage }) => {
     }
   };
   return (
-    <div className="h-screen w-full sm:mt-[10%] mt-[12%]  md:mt-[10%] bg-[#1f1c147c] fixed top-0 flex justify-center items-center z-10">
+    <div className="h-screen w-full sm:mt-[10%] mt-[12%]  md:mt-[10%] lg:mt-[5%] bg-[#1f1c147c] fixed top-0 flex justify-center items-center z-10">
     <div
       className="text-right mt-2  text-white text-[31px] absolute right-5 top-3 cursor-pointer"
       onClick={() => setIsPopupOpen(false)}
