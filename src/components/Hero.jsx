@@ -23,10 +23,10 @@ const Hero = () => {
         id="about"
       >
         <div class=" p-1 ">
-        <div className="flex justify-center items-center mt-[8%]">
+        <div className="flex justify-center items-center sm:mt-[8%]">
             <img
               src={man}
-              className="rounded-full h-[120px] w-[120px] sm:h-52 sm:w-52 object-cover border-2 border-[#38CB89]"
+              className="rounded-full h-[110px] w-[110px] sm:h-52 sm:w-52 object-cover border-2 border-[#38CB89]"
               alt="Description of image"
             />
           </div>
@@ -85,22 +85,22 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="items-center mt-[-5%]   mb-4  hidden md:block lg:mx-[25%] lg:mt-[-18%]">
-          <ul className="flex gap-[10px] lg:gap-[8px] px-2">
-            <img src={what} className="h-[48px] " alt="whataap" />
-            <img src={fac} alt="facbook" className="h-[43px]  mt-1" />
-            <img src={inst} alt="instagram" className="h-[48px] mt-1" />
-            <img src={you} alt="youtube" className="h-[48px]  mt-1" />
-            <img src={flip} alt="youtube" className="h-[55px]" />
-            <img src={big} alt="youtube" className="h-[50px]  mt-1" />
-            <img src={im} alt="youtube" className="h-[48px]  mt-1 " />
-            <img src={amo} alt="youtube" className="h-[38px]  mt-2" />
-            <img src={Xi} alt="youtube" className="h-[48px]  mt-1 " />
-            <img src={link} alt="youtube" className="h-[50px]  mt-1" />
-            <img src={sw} alt="youtube" className="h-[48px] " />
-            <img src={zo} alt="youtube" className="h-[55px] " />
-            <img src={me} alt="youtube" className="h-[48px] " />
-            <img src={ju} alt="youtube" className="h-[60px] " />
+        <div className="items-center mt-[-5%]   mb-4  hidden md:block lg:ml-[45%] md:ml-[10%] lg:mt-[-18%]">
+          <ul className="flex gap-[6px] lg:gap-[8px] px-2">
+            <img src={what} className="h-[45px] " alt="whataap" />
+            <img src={fac} alt="facbook" className="h-[41px]  mt-1" />
+            <img src={inst} alt="instagram" className="h-[45px] mt-1" />
+            <img src={you} alt="youtube" className="h-[45px]  mt-1" />
+            <img src={flip} alt="youtube" className="h-[50px]" />
+            <img src={big} alt="youtube" className="h-[48px]  mt-1" />
+            <img src={im} alt="youtube" className="h-[45px]  mt-1 " />
+            <img src={amo} alt="youtube" className="h-[37px]  mt-2" />
+            <img src={Xi} alt="youtube" className="h-[45px]  mt-1 " />
+            <img src={link} alt="youtube" className="h-[48px]  mt-1" />
+            <img src={sw} alt="youtube" className="h-[45px] " />
+            <img src={zo} alt="youtube" className="h-[50px] " />
+            <img src={me} alt="youtube" className="h-[45px] " />
+            <img src={ju} alt="youtube" className="h-[55px] " />
           </ul>
         </div>
       </div>

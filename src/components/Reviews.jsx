@@ -18,7 +18,7 @@ const Reviews = () => {
         </div>
         <div className="">
           <div className="bg-black ml-[-2%] rounded-md sm:h-[400px]">
-            <h2 className="text-[30px] text-white font-bold  ml-[6%] ">Reviews</h2>
+            <h2 className="text-[30px] text-white font-bold  text-center ">Reviews</h2>
             <div className="  sm:h-[300px] pb-[10px] lg:mt-[10%]">
               <Swiper
                 breakpoints={{

@@ -14,11 +14,13 @@ import ContactUs from "./ContactUs";
 import Certificates from "./Certificates";
 import Offers from "./Offers";
 import Product from "./Product";
+import Contact from "./Contact";
 const Layout = () => {
   return (
     <div>
       <Home />
       <Hero />
+      <Contact/>
       <Product />
       <Categories />
       <Offers />

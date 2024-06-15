@@ -16,7 +16,7 @@ const Articles = () => {
   return (
     <div>
       <AppLayout>
-        <h2 className=" font-bold text-[30px] ml-4" id="blogs">Blogs</h2>
+        <h2 className=" font-bold text-[30px] text-center" id="blogs">Blogs</h2>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}

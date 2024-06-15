@@ -19,7 +19,7 @@ const Categories = () => {
   return (
     <div className="" id="services">
       <AppLayout>
-        <h2 className=" font-bold text-[30px] ml-4">Service</h2>
+        <h2 className=" font-bold text-[30px] text-center">Service</h2>
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
             <div className="grid sm:grid-cols-2 my-8 gap-1">

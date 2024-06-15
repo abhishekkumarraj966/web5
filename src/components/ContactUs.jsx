@@ -20,8 +20,8 @@ function ContactUs() {
     <AppLayout>
       <section id="contact">
         <div className="bg-[#000] text-[#36C478] h-auto mb-5 rounded-md">
-          <div className="text-start font-semibold leading-5 mx-auto pt-10">
-            <div className="italic  text-[30px] ml-2">
+          <div className="text-center font-semibold leading-5 mx-auto pt-10">
+            <div className="italic  text-[30px] ">
               Enquiry
             </div>
           </div>

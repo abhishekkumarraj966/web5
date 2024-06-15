@@ -23,7 +23,7 @@ const Offers = () => {
     <>
       <div className="">
         <AppLayout>
-          <h1 className="text-start font-bold text-[30px] items-center  pt-[20px] ml-4">
+          <h1 className="text-center font-bold text-[30px] items-center  pt-[20px] ">
             Offers
           </h1>
         </AppLayout>

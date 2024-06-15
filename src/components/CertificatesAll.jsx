@@ -6,7 +6,7 @@ import gl2 from "./assets/2.png";
 import gl3 from "./assets/3.png";
 import gl4 from "./assets/4.png";
 import gl5 from "./assets/5.png";
-let imagarr = [gl1, gl2, gl3,gl4, gl5, gl1]; // if you want to add some image then , gice url in this array
+let imagarr = [gl1, gl2, gl3, gl4, gl5, gl1]; // if you want to add some image then , gice url in this array
 
 const CertificatesAll = ({ setIsPopupOpen, imsg, setImage }) => {
   let handleNextImage = () => {
@@ -25,7 +25,7 @@ const CertificatesAll = ({ setIsPopupOpen, imsg, setImage }) => {
     }
   };
   return (
-    <div className="h-screen w-full sm:mt-[3%] mt-[12%] bg-[#1f1c147c] fixed top-0 flex justify-center items-center z-10">
+    <div className="h-screen w-full sm:mt-[10%] mt-[12%]  md:mt-[10%] bg-[#1f1c147c] fixed top-0 flex justify-center items-center z-10">
       <div
         className="text-right mt-2  text-white text-[31px] absolute right-5 top-3 cursor-pointer"
         onClick={() => setIsPopupOpen(false)}
@@ -42,7 +42,7 @@ const CertificatesAll = ({ setIsPopupOpen, imsg, setImage }) => {
         </div>
         <img
           src={imagarr[imsg]}
-          className="w-full transition-transform transform duration-100 hover:scale-110 h-[90%] mx-auto  lg:rounded-[1px]"
+          className="w-full transition-transform transform duration-100 hover:scale-110 h-[380px] mx-auto md:h-[400px] md:w-[480px] lg:h-[400px] lg:w-[480px] lg:rounded-[1px]"
           alt="Image 1"
         />
         <div
@@ -55,4 +55,4 @@ const CertificatesAll = ({ setIsPopupOpen, imsg, setImage }) => {
     </div>
   );
 };
-export default CertificatesAll
+export default CertificatesAll;
